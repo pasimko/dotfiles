@@ -36,7 +36,7 @@ bindsym $mod+Return exec gnome-terminal
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec rofi -modi run -show
+bindsym $mod+d exec rofi -display-run "> " -modi run -show
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
